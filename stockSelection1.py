@@ -9,7 +9,7 @@ import pickle
 
 # -------------------------- 核心配置（Tushare授权+筛选规则） --------------------------
 CONFIG = {
-    "tushare_token": "52a5779c9d3da14bd2ff12f1a47bd3d56e8c6ca1d23c94badefad615",  # 替换为你的真实TOKEN！
+    "tushare_token": "你的token",  # 替换为你的真实TOKEN！
     "limit_up_price_pct": 9.8,
     "limit_down_price_pct": -9.8,
     "trend_days": 60,
@@ -438,4 +438,5 @@ def main():
     """)
 
 if __name__ == "__main__":
+
     main()
